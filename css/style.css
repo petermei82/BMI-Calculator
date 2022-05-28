@@ -1,0 +1,82 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Microsoft JhengHei, serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#container #box {
+  width: 1000px;
+  margin: auto;
+  border: 1px dashed #00ffff;
+  text-align: center;
+}
+
+#container #box h1 {
+  color: blue;
+  font-size: 24px;
+  font-family: serif;
+}
+
+#container #box p {
+  font-weight: 600;
+}
+
+#container #box span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#container #box .unit {
+  margin-right: 10px;
+}
+
+#container #box input {
+  width: 100px;
+  border: 1px dashed #0f0;
+  outline: none;
+}
+
+#container #box button {
+  color: blue;
+  background-color: #00ffff;
+  border: 0ch;
+}
+
+#container #box #answer {
+  height: 25px;
+  width: 200px;
+  border: 1px dashed #00ffff;
+  margin: 30px auto 0;
+}
+
+#container #box table {
+  border: 1px dashed #00ffff;
+  margin: 50px auto 20px;
+}
+
+#container #box table td {
+  border: 1px dashed #00ffff;
+  padding: 0 40px;
+}
+
+#container #box table td:first-child {
+  padding: 0 60px;
+}
+
+#container #box table .active {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
